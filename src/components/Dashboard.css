@@ -9,6 +9,12 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  font-weight:bolder;
+  text-align: center;
+  height: 7rem;
+  color: black;
+
+
 }
 
 .add-movie-button {
@@ -18,8 +24,13 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
-}
 
+}
+.btn{
+    display: flex;
+  justify-content: end;
+  margin-right: 50vh;
+}
 .add-movie-button:hover {
   background-color: #0056b3;
 }
@@ -28,4 +39,5 @@
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
+  /* justify-content: start; */
 }
